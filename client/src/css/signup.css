@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.mainreg-container {
+    height: 100vh;
+    overflow: auto;
+    background-color: #f0f0f3;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.signupcard {
+    width: 293px;
+    height: 666px;
+    flex-shrink: 0;
+    padding: 20px;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    margin: 178px auto;
+    border-radius: 42px;
+    background: #e0e0e0;
+    border: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* h3 {
+    text-align: left;
+} */
+
+.usernameRegister {
+    padding-top: 40px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #ffffff;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.95px;
+}
+
+.enterusernameRegister {
+    width: 290px;
+    height: 55px;
+    position:relative;
+    top:-8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+} 
+
+.enterregusername:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.name {
+    padding-top: 20px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.15px;
+}
+
+.entername {
+    width: 290px;
+    height: 55px;
+    position: relative;
+    top: -8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+}
+
+.email {
+    padding-top: 20px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.15px;
+}
+
+.enteremail {
+    width: 290px;
+    height: 55px;
+    position: relative;
+    top: -8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+}
+
+
+.regpassword {
+    padding-top: 20px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.15px;
+}
+
+.enterregpassword {
+    width: 290px;
+    height: 55px;
+    position: relative;
+    top: -8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+}
+
+.enterregpassword:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.signupButton {
+    width: 130px;
+    height: 54px;
+    border-radius: 42px;
+    background: #e0e0e0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    color: #000000;
+}
+
+
+.signupButton:active {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4), inset 0px 0px 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(2px);
+}

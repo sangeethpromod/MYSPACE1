@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Anderson+Grotesk:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Anderson Grotesk', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    overflow: hidden;
+    background-color: #ECF0F3;
+}
+
+.dashboard-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+    margin-top: 120px;
+    text-align: left;
+}
+
+.enterbioName {
+    margin-top: 40px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterbioName::placeholder {
+    text-align: center;
+    color: black;
+}
+
+
+.enterabout {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterabout::placeholder {
+    text-align: center;
+    color: black;
+}
+
+
+.enteremoji {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enteremoji::placeholder {
+    text-align: center;
+    color: black;
+}
+
+
+.enterinstalink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterinstalink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.enterfblink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterfblink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.enterpintrestlink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterpintrestlink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.enterxlink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterxlink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.enterlinkdinlink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+    /* Set the color for text input */
+}
+
+.enterlinkdinlink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.enterlinkdinlink:focus {
+    background: #e2e2e2;
+}
+
+.enterthreadlink {
+    margin-top: 25px;
+    width: 370px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 1px #dbdada;
+    outline: none;
+    background: #ececec;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    color: black;
+}
+
+.enterthreadlink::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.okayButton {
+    width: 130px;
+    height: 44px;
+    border-radius: 42px;
+    background: #e0e0e0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    color: #000000;
+}
+
+
+.okayButton:active {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4), inset 0px 0px 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+body {
+        overflow: hidden;
+        background-color: #ECF0F3;
+    }
+
+    .dashboard-container {
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .navbar {
+        background-color: black;
+        color: white;
+        padding: 0px;
+        margin: 0%;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h2 {
+        margin-top: 150px;
+        text-align: left;
+        font-size: 72px;
+    }
+
+    .enterbioName {
+        margin-top: 40px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterbioName::placeholder {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    }
+
+
+    .enterabout {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterabout::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+
+    .enteremoji {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enteremoji::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+
+    .enterinstalink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterinstalink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .enterfblink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterfblink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .enterpintrestlink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterpintrestlink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .enterxlink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterxlink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .enterlinkdinlink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+        /* Set the color for text input */
+    }
+
+    .enterlinkdinlink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .enterlinkdinlink:focus {
+        background: #e2e2e2;
+    }
+
+    .enterthreadlink {
+        margin-top: 25px;
+        width: 1200px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 42px;
+        border: 1px #dbdada;
+        outline: none;
+        background: #ececec;
+        box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+        color: black;
+    }
+
+    .enterthreadlink::placeholder {
+        text-align: center;
+        color: black;
+    }
+
+    .okayButton {
+        width: 230px;
+        height: 66px;
+        border-radius: 42px;
+        background: #e0e0e0;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        font-size: 20px;
+        font-weight: bolder;
+        border: 0px;
+        outline: 0px;
+        box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        color: #000000;
+    }
+
+    .okayButton:active {
+        box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4), inset 0px 0px 8px rgba(255, 255, 255, 0.4);
+        transform: translateY(2px);
+    }
+}

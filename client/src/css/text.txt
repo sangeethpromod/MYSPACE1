@@ -1,0 +1,7 @@
+Drop Shadow 
+-10px -10px 30px 0 #FFFFFF
+10px 10px 30px 0 #AEAEC0 40%
+
+Inner Shadow
+-10px -10px -10px 0 #AEAEC0 25%
+10px 10px 10px 0 #FFFFFF

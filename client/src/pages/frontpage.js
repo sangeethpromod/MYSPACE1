@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "../css/front.css";
 import insta from "../images/nohat.png";
 import fb from "../images/fb logo.png";
@@ -8,26 +9,14 @@ import linkdin from "../images/linkdin.png";
 import threads from "../images/threads.png";
 
 function Frontpage() {
+  const [linkData, setLinkData] = useState({});
 
-  const instaPage = () => {
-    window.open("https://instagram.com/sang.xx.th?igshid=NzZhOTFlYzFmZQ==");
-  }
-
-    const fbPage = () => {
-      window.open("https://www.facebook.com/sang.xx.th/");
-  }
-
-    const pintrestPage = () => {
-      window.open("https://pin.it/4sZEMii");
-  }
-
-    const linkdinPage = () => {
-       window.open("https://in.linkedin.com/in/sangeeth-promod-68b5371a9");
-  }
-
-    const xPage = () => {
-       window.open("https://x.com/sangxxth?s=11");
-    }
+  useEffect(() => {
+    // Fetch link data from the backend API
+    axios.get("http://localhost:3000/auth/linkdata").then((response) => {
+      setLinkData(response.data);
+    });
+  }, []);
 
   return (
     <div className="mobile-container">
@@ -44,33 +33,51 @@ function Frontpage() {
       </div>
 
       <div className="large-button-container">
-        <button className="large-button" onClick={instaPage}>
+        <button
+          className="large-button"
+          onClick={() => window.open(linkData.instagramLink)}
+        >
           <img src={insta} alt="Button Image 1" className="insta-image" />
         </button>
       </div>
 
       <div className="second-row">
-        <button className="fb-button" onClick={fbPage}>
+        <button
+          className="fb-button"
+          onClick={() => window.open(linkData.facebookLink)}
+        >
           <img src={fb} alt="Button Image 1" className="fb-image" />
         </button>
 
-        <button className="pintrest-button" onClick={pintrestPage}>
+        <button
+          className="pintrest-button"
+          onClick={() => window.open(linkData.pintrestLink)}
+        >
           <img src={pintrest} alt="Button Image 1" className="pintrest-image" />
         </button>
       </div>
 
       <div className="third-row">
-        <button className="twitter-button" onClick={xPage}>
+        <button
+          className="twitter-button"
+          onClick={() => window.open(linkData.xLink)}
+        >
           <img src={x} alt="Button Image 1" className="x-image" />
         </button>
       </div>
 
       <div className="fourth-row">
-        <button className="linkdin-button" onClick={linkdinPage}>
+        <button
+          className="linkdin-button"
+          onClick={() => window.open(linkData.linkdinLink)}
+        >
           <img src={linkdin} alt="Button Image 1" className="linkdin-image" />
         </button>
 
-        <button className="threads-button">
+        <button
+          className="threads-button"
+          onClick={() => window.open(linkData.threadsLink)}
+        >
           <img src={threads} alt="Button Image 1" className="threads-image" />
         </button>
       </div>

@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Anderson+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Anderson Grotesk', sans-serif;
+    font-weight: 900;
+}
+body {
+    overflow-y: hidden;
+}
+
+.main-container {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f3;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding-top: 0px;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+
+.logincard {
+    width: 293px;
+    height: 414px;
+    flex-shrink: 0;
+    padding: 20px;
+    box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    margin: 178px auto;
+    border-radius: 42px;
+    background: #e0e0e0;
+    border: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.username {
+    padding-top: 20px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.15px;
+}
+
+.enterusername {
+    width: 290px;
+    height: 55px;
+    position:relative;
+    top:-8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+}
+
+.enterusername:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.password {
+    padding-top: 20px;
+    width: 292px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.15px;
+}
+
+.enterpassword {
+    width: 290px;
+    height: 55px;
+    position: relative;
+    top: -8px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #e0e0e0;
+    ;
+    border: 0px;
+    box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+    outline: 0px;
+}
+
+.enterpassword:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.signinButton {
+    width: 130px;
+    height: 54px;
+    border-radius: 42px;
+    background: #e0e0e0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    color: #000000;
+}
+
+
+.signinButton:active {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4), inset 0px 0px 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(2px);
+}
+
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0, 100%);
+    width: 22em;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: 10px;
+    border-radius: 42px;
+    background: #000000;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1em;
+}
+
+div:where(.swal2-icon).swal2-error {
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line] {
+    background-color: #ff0000;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    body {
+            overflow: hidden;
+            background-color: #f0f0f3;
+        }
+    
+        .main-container {
+            height: 100vh;
+            overflow: hidden;
+        }
+    
+        .navbar {
+            background-color: black;
+            color: white;
+            padding-top: 0px;
+            margin: 0%;
+            text-align: center;
+            width: 100%;
+        }
+    
+    
+        .logincard {
+            width: 293px;
+            height: 414px;
+            flex-shrink: 0;
+            padding: 20px;
+            box-shadow: inset -5px -5px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+            margin: 178px auto;
+            border-radius: 42px;
+            background: #e0e0e0;
+            border: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        h2 {
+            text-align: left;
+            margin-top: 25px;
+        }
+    
+        .username {
+            padding-top: 20px;
+            width: 292px;
+            height: 44px;
+            flex-shrink: 0;
+            color: #000000;
+            text-align: left;
+            font-family: Poppins;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.15px;
+        }
+    
+        .enterusername {
+            width: 290px;
+            height: 55px;
+            position: relative;
+            top: -8px;
+            flex-shrink: 0;
+            border-radius: 42px;
+            background: #e0e0e0;
+            ;
+            border: 0px;
+            box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+            outline: 0px;
+        }
+    
+        .enterusername:hover {
+            background-color: rgb(255, 255, 255);
+        }
+    
+        .password {
+            padding-top: 20px;
+            width: 292px;
+            height: 44px;
+            flex-shrink: 0;
+            color: #000000;
+            text-align: left;
+            font-family: Poppins;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.15px;
+        }
+    
+        .enterpassword {
+            width: 290px;
+            height: 55px;
+            position: relative;
+            top: -8px;
+            flex-shrink: 0;
+            border-radius: 42px;
+            background: #e0e0e0;
+            ;
+            border: 0px;
+            box-shadow: inset -5px -4px 9px #fff, inset 5px 5px 9px rgba(0, 0, 0, 0.11);
+            outline: 0px;
+        }
+    
+        .enterpassword:hover {
+            background-color: rgb(255, 255, 255);
+        }
+    
+    
+        .signinButton {
+            width: 130px;
+            height: 54px;
+            border-radius: 42px;
+            background: #e0e0e0;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            font-size: 20px;
+            font-weight: bolder;
+            border: 0px;
+            outline: 0px;
+            box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+            color: #000000;
+        }
+    
+    
+        .signinButton:active {
+            box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4), inset 0px 0px 8px rgba(255, 255, 255, 0.4);
+            transform: translateY(2px);
+        }
+    
+    
+        div:where(.swal2-container) div:where(.swal2-popup) {
+            display: none;
+            position: relative;
+            box-sizing: border-box;
+            grid-template-columns: minmax(0, 100%);
+            width: 22em;
+            max-width: 100%;
+            padding: 0 0 1.25em;
+            border: 10px;
+            border-radius: 42px;
+            background: #000000;
+            color: #ffffff;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+    
+        div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+            border: 0;
+            border-radius: 0.25em;
+            background: initial;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 1em;
+        }
+    
+        div:where(.swal2-icon).swal2-error {
+            border-color: #ff0000;
+            color: #ff0000;
+        }
+    
+        div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line] {
+            background-color: #ff0000;
+        }
+
+}
